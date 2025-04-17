@@ -1,9 +1,7 @@
 import streamlit as st
 
-st.set_page_config(page_title="Home", layout="wide") 
-
 # Title for the app 
-st.title("Drata Product Health Dashboard")
+st.title("Leen Dashboards")
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
