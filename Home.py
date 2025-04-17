@@ -1,8 +1,9 @@
 import streamlit as st
 
-st.set_page_config(page_title="Leen Dashboards", layout="wide")
 
-# Title for the app 
+st.set_page_config(layout="wide")
+
+
 st.title("Leen Dashboards")
 
 # Sidebar for navigation
