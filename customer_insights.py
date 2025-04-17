@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+st.set_page_config(page_title="Customer Insights", layout="wide")
+
 # -----------------------------
 # Mock Funnel Data Generation
 # -----------------------------
