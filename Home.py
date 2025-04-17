@@ -1,7 +1,5 @@
 import streamlit as st
 
-st.set_page_config(page_title="Leen Dashboards", layout="wide")
-
 # Title for the app
 st.title("Leen Dashboards")
 

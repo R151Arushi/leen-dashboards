@@ -1,11 +1,9 @@
 import streamlit as st
-st.set_page_config(page_title="Drata Product Health Dashboard", layout="wide") 
-
 import pandas as pd
 import plotly.express as px
 from datetime import datetime, timedelta
 
-
+st.set_page_config(page_title="Drata Product Health Dashboard", layout="wide") 
 
 # -----------------------------
 # Mock Data Generation Section
@@ -54,7 +52,7 @@ df = pd.DataFrame(data)
 # -----------------------------
 # Streamlit UI Section
 # -----------------------------
-st.set_page_config(page_title="Drata Product Health Dashboard", layout="wide")
+
 st.title("📊 Drata Product Health Dashboard")
 
 # Date filter
